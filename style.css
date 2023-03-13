@@ -1,0 +1,72 @@
+
+.inline-block {
+    margin: 0 auto;
+    color: white;
+}
+
+ul {
+    width: 75%;
+    font-family: Roboto-mono;
+    outline: 1px solid red;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: block;
+    width: 100px;
+    background-color: #2d2d43;
+    padding: 12px 20px;
+    text-align: center;
+    display: inline;
+    float: left;
+    
+}
+
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    outline: 1px solid red;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    outline: 1px solid red;
+    color: white;
+}
+
+.footer {
+    background-color: #683143;
+    outline: 1px solid red;
+}
+
+button {
+    background: #ED1E32;
+    border-radius: 5px;
+    border: none;
+    width: 500px;
+    height: 30px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    outline: 1px solid red;
+
+
+}
+
+button:hover {
+    background-color: rgb(1, 1, 1)
+}
+li:hover {
+    background-color: #252237;
+}
+li:active {
+    background-color:aqua;
+}
