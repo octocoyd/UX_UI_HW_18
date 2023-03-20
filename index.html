@@ -10,37 +10,87 @@
         </style>
     </head>
         <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
     <body>
-        <header class="navigation">
-            <div class="inline-block, logo">
-                <img src="/octopus icon.png">
+
+        <div class="header">
+            <a href="#default" class="logo">OCTOCOYD</a>
+            <div class="icon">
+                <img src= "/octopus icon.png" width="188px" height= "221">
             </div>
+          </div>
+    
+
+        <header class="navigation">
             <nav class="inline-block">
-                <ul>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Work</li>
-                    <li>Contact</li>
+                <div class="navBar">
+                    <button class="navButton"> <a style="text-decoration: none;" href="#aboutMe">About Me</a> </button>
+                    <button class="navButton"> <a style="text-decoration: none;" href="#mySkills">My Skills</a></button>
+                    <button class="navButton"> <a style="text-decoration: none;" href="#myWork">Design Work & Illustration</a> </button>
+                    <button class="navButton"> <a style="text-decoration: none;" href="#contact">Contact</a> </button>
                 </ul>
             </nav>
         </header>
+
+
         <section class="heroImg">
+            <h1 class="text"> About Me </h1>
             <div class="content">
-                <img src="<!--i dont have one yet-->">
+                <!--<img src="heroimage.jpg"> -->
                 <p> Hi! I’m Cacie, also known as octocoyd! I’m a 21 year old freelance character illustrator and web designer based in San Antonio Texas. My dream is to help bring fun ideas to life through visual media and create memorable, story-driven experiences for people of all walks!
                 </p>
-                <button> Download Resume </button>
+                <button class="button"> Download My Resume! </button>
             </div>
         </section>
+
+ <!--  My UX Skills section coded using CSS flex -->
+        
+        <section class="text">
+            <h1> My Skills </h1>
+            <div class= "flexContainer">
+                <div>
+                    <img>
+                </div>
+                <div>
+                    <h3> Description of My Skills </h3>
+                </div>
+                <div>
+                    <p> How I use my Skill </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="text">
+            <h1> My Work </h1>
+            <div class= "workGrid">
+                <div>
+                    <img>
+                </div>
+                <div>
+                    <h4> Yolo? </h4>
+                    <p> hehe </p>
+                    <button class="button"> View Project </button>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </section>
+
+<h3> View All Projects </h3>
+
         <footer>
-            <ul>
-                <li class="inline-block"> About </li>
-                <li class="inline-block"> Skills </li>
-                <li class="inline-block"> Work </li>
-                <li class="inline-block"> Contact </li>
-            </ul>
+            <div class="navBar">
+                <button class="navButton"> About </button>
+                <button class="navButton"> Skills </button>
+                <button class="navButton"> Work </button>
+                <button class="navButton"> Contact </button>
+            </div>
         </footer>
-        <p>yolo swag bbg</p>
+
     </body>
 </html>

@@ -4,9 +4,9 @@
     color: white;
 }
 
-ul {
-    width: 75%;
-    font-family: Roboto-mono;
+.navBar {
+    width: 100%;
+    font-family: 'Roboto-mono';
     outline: 1px solid red;
     list-style-type: none;
     margin: 0 auto;
@@ -14,22 +14,56 @@ ul {
     overflow: hidden;
 }
 
-li {
-    display: block;
-    width: 100px;
+.navButton {
+    justify-content: space-between;
     background-color: #2d2d43;
-    padding: 12px 20px;
     text-align: center;
-    display: inline;
-    float: left;
     
+    padding: 18px 16px;
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    border: none;
 }
 
 
+.header {
+    padding: 20px 10px;
+    text-align: left;
+    display: block;
+    height: 100px;
+    background: linear-gradient(90deg, #2D2D43, #ED1E32);
+    color: white;
+    font-size: 50px;
+    overflow: hidden;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    border-radius: 1px;
+  }
+
+  .icon {
+    
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .header a {
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
 .heroImg {
-    height: 600px;
+    height: 400px;
     padding: 25px;
-    outline: 1px solid red;
+    overflow: hidden;
+    width: 100%;
 }
 
 .content {
@@ -38,6 +72,9 @@ li {
     padding: 25px;
     outline: 1px solid red;
     color: white;
+    font-family: 'Roboto Mono', monospace;
+
+    
 }
 
 .footer {
@@ -45,28 +82,45 @@ li {
     outline: 1px solid red;
 }
 
-button {
+.button {
     background: #ED1E32;
-    border-radius: 5px;
+    border-radius: 1px;
     border: none;
     width: 500px;
     height: 30px;
-    font-family: 'JetBrains Mono';
-    font-style: normal;
+    font-family: 'Roboto Mono', monospace;
+    font-style: bold;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    outline: 1px solid red;
+}
 
-
+a {
+    color: #E9DBDB;
 }
 
 button:hover {
-    background-color: rgb(1, 1, 1)
+    background-color: #ca1221;
 }
-li:hover {
+.navButton:hover {
     background-color: #252237;
 }
-li:active {
-    background-color:aqua;
+
+
+.text {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.flexContainer {
+    display: flex;
+    width: 33%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+
+@media only screen and (max-width: 800px){
+    
 }
